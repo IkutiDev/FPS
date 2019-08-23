@@ -7,6 +7,7 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] private Camera FPCamera;
     [SerializeField] private float range = 100f;
+    [SerializeField] private float damage = 10f;
 
     private void Update()
     {
@@ -19,14 +20,19 @@ public class Weapon : MonoBehaviour
     private void Shoot()
     {
         RaycastHit hit;
-        Physics.Raycast(FPCamera.transform.position,FPCamera.transform.forward,out hit, range);
-        if (hit.transform == null)
+        if (Physics.Raycast(FPCamera.transform.position,FPCamera.transform.forward,out hit, range))
         {
-            Debug.Log("Nothing was shot");
+            Debug.Log(hit.transform.name + " was shot");
+            // TODO: add some hit effect for visual players
+            EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
+            if (target != null)
+            {
+                target.TakeDamage(damage);
+            }
         }
         else
         {
-            Debug.Log(hit.transform.name+" was shot");
+            return;
         }
     }
 }

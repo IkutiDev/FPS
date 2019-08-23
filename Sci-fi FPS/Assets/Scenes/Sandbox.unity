@@ -2458,6 +2458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 1170963184}
   range: 100
+  damage: 25
 --- !u!4 &1452312038 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5862bbfe91a75054ca72c13b555b6ac5,
@@ -3502,12 +3503,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 1474020214003284881, guid: 60757b77cd091eb41a47bec07ce26383,
-        type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
     - target: {fileID: 1474020214003284884, guid: 60757b77cd091eb41a47bec07ce26383,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3568,15 +3563,5 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 2135238532}
-    - target: {fileID: 1474020214003284887, guid: 60757b77cd091eb41a47bec07ce26383,
-        type: 3}
-      propertyPath: chaseRange
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1474020214003284880, guid: 60757b77cd091eb41a47bec07ce26383,
-        type: 3}
-      propertyPath: m_StoppingDistance
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60757b77cd091eb41a47bec07ce26383, type: 3}
