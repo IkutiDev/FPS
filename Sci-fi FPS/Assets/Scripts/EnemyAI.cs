@@ -13,6 +13,9 @@ public class EnemyAI : MonoBehaviour
     private NavMeshAgent navMeshAgent;
 
     private float distanceToTarget=Mathf.Infinity;
+    private static readonly int Move = Animator.StringToHash("move");
+    private static readonly int Attack = Animator.StringToHash("attack");
+
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
@@ -45,11 +48,15 @@ public class EnemyAI : MonoBehaviour
 
     private void AttackTarget()
     {
+        
+        GetComponent<Animator>().SetBool(Attack,true);
         Debug.Log("Git attacked ya biscuit!");
     }
 
     private void ChaseTarget()
     {
+        GetComponent<Animator>().SetBool(Attack, false);
+        GetComponent<Animator>().SetTrigger(Move);
         navMeshAgent.SetDestination(target.position);
     }
 
