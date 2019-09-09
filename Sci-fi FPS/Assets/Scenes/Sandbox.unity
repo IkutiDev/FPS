@@ -550,6 +550,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 319218594781775581, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1001 &109335163
@@ -754,6 +759,12 @@ PrefabInstance:
       objectReference: {fileID: 2135238532}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60757b77cd091eb41a47bec07ce26383, type: 3}
+--- !u!4 &278502621 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5272776322613544887, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 3}
+  m_PrefabInstance: {fileID: 101097866}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &315690524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3629,3 +3640,89 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 101097866}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1110408165836925652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 278502621}
+    m_Modifications:
+    - target: {fileID: 1110997367520400756, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_Name
+      value: M4_8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.401
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3642478
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.725
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000001876322
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9999338
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.011513036
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 8.6673424e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.319
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2019335291340885984, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: FPCamera
+      value: 
+      objectReference: {fileID: 1170963184}
+    - target: {fileID: 2019335291340885984, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 5683491816648039795, guid: 4405df0a7a43e714faf2687057d6e388,
+        type: 3}
+    - target: {fileID: 2019335291340885984, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 198234346748616026, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ee0673a22566574aad6ece22db83f2d, type: 3}
