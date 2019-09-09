@@ -353,6 +353,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 68535083}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &95516056 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198234346748616026, guid: 13e689a21091ff84a9a7981b0b9c983f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1000842732}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &100917741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2067,6 +2073,120 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 977778653}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1000842732
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4035220378195632}
+    m_Modifications:
+    - target: {fileID: 1743301284569550, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_Name
+      value: MuzzleFlash01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.354
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300533007854612, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 198234346748616026, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: UVModule.flipV
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198234346748616026, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198234346748616026, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199409127382122440, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: m_Flip.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 198515452120210940, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: UVModule.flipU
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198515452120210940, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: UVModule.flipV
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198515452120210940, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199338666435788112, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: m_Flip.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 199338666435788112, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: m_Flip.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 13e689a21091ff84a9a7981b0b9c983f, type: 3}
 --- !u!4 &1158667693 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 584a8ef4749c89745b7ae07f3ba7617f,
@@ -3640,6 +3760,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 101097866}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &4035220378195632 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1110408165836925652}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1110408165836925652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3716,13 +3842,12 @@ PrefabInstance:
         type: 3}
       propertyPath: hitEffect
       value: 
-      objectReference: {fileID: 5683491816648039795, guid: 4405df0a7a43e714faf2687057d6e388,
+      objectReference: {fileID: 4812192959142158092, guid: 2a714d377ce955242add41ca7ed3c5b3,
         type: 3}
     - target: {fileID: 2019335291340885984, guid: 6ee0673a22566574aad6ece22db83f2d,
         type: 3}
       propertyPath: muzzleFlash
       value: 
-      objectReference: {fileID: 198234346748616026, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
-        type: 3}
+      objectReference: {fileID: 95516056}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee0673a22566574aad6ece22db83f2d, type: 3}
