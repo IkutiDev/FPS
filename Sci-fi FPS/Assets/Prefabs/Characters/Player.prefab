@@ -366,6 +366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5272776322613544887}
+  - component: {fileID: 6767416755322900465}
   m_Layer: 0
   m_Name: Weapons
   m_TagString: Untagged
@@ -390,6 +391,19 @@ Transform:
   m_Father: {fileID: 400002}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6767416755322900465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201718359469751275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7b4ca4261b279f468a8d41d97db1c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWeapon: 0
 --- !u!1001 &200149556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -405,7 +419,7 @@ PrefabInstance:
     - target: {fileID: 1110997367520400756, guid: 08b4ad4adb3c8c648943ad973ae60a55,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 08b4ad4adb3c8c648943ad973ae60a55,
         type: 3}
@@ -505,7 +519,7 @@ PrefabInstance:
     - target: {fileID: 1110997367520400756, guid: 6ee0673a22566574aad6ece22db83f2d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
         type: 3}
@@ -605,7 +619,7 @@ PrefabInstance:
     - target: {fileID: 1110997367520400756, guid: 2301413849d95344892841eaf00f7c8d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 2301413849d95344892841eaf00f7c8d,
         type: 3}
