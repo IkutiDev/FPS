@@ -384,9 +384,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1109750645238445648}
   - {fileID: 4035220344747834}
   - {fileID: 9211275875761314883}
-  - {fileID: 1109750645238445648}
   m_Father: {fileID: 400002}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -445,7 +445,7 @@ PrefabInstance:
     - target: {fileID: 1109750645350251620, guid: 08b4ad4adb3c8c648943ad973ae60a55,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 08b4ad4adb3c8c648943ad973ae60a55,
         type: 3}
@@ -545,7 +545,7 @@ PrefabInstance:
     - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
         type: 3}
@@ -602,6 +602,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bennelli_M4
       objectReference: {fileID: 0}
+    - target: {fileID: 1110997367520400756, guid: 2301413849d95344892841eaf00f7c8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 2301413849d95344892841eaf00f7c8d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -640,7 +645,7 @@ PrefabInstance:
     - target: {fileID: 1109750645350251620, guid: 2301413849d95344892841eaf00f7c8d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 2301413849d95344892841eaf00f7c8d,
         type: 3}
