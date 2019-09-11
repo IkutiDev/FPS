@@ -17,6 +17,14 @@ public class Weapon : MonoBehaviour
         {
             Shoot();
         }
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            if (GetComponent<WeaponZoom>())
+            {
+                GetComponent<WeaponZoom>().Zoom();
+            }
+        }
     }
 
     private void Shoot()

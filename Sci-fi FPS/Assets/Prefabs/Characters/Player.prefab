@@ -328,6 +328,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fa849bcdf9fadc48b889bdd01e6fcb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
+--- !u!114 &4158021150230384471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117584096435754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b7fa213285b1434ba53dadf25353256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 2000000}
+  FpsController: {fileID: 11400004}
+  zoomedInFOV: 30
+  zoomedOutFOV: 60
+  sensitivityZoomedIn: 1
+  sensitivityZoomedOut: 2
 --- !u!1 &8201718359469751275
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,17 +447,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198234346748616026, guid: 13e689a21091ff84a9a7981b0b9c983f,
         type: 3}
-      propertyPath: UVModule.flipV
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198234346748616026, guid: 13e689a21091ff84a9a7981b0b9c983f,
-        type: 3}
       propertyPath: looping
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198234346748616026, guid: 13e689a21091ff84a9a7981b0b9c983f,
         type: 3}
       propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198234346748616026, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
+      propertyPath: UVModule.flipV
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 199409127382122440, guid: 13e689a21091ff84a9a7981b0b9c983f,
@@ -448,17 +467,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198515452120210940, guid: 13e689a21091ff84a9a7981b0b9c983f,
         type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198515452120210940, guid: 13e689a21091ff84a9a7981b0b9c983f,
+        type: 3}
       propertyPath: UVModule.flipU
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198515452120210940, guid: 13e689a21091ff84a9a7981b0b9c983f,
         type: 3}
       propertyPath: UVModule.flipV
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198515452120210940, guid: 13e689a21091ff84a9a7981b0b9c983f,
-        type: 3}
-      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 199338666435788112, guid: 13e689a21091ff84a9a7981b0b9c983f,
@@ -553,17 +572,23 @@ PrefabInstance:
       objectReference: {fileID: 2000000}
     - target: {fileID: 2019335291340885984, guid: 6ee0673a22566574aad6ece22db83f2d,
         type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 198234347375597884}
+    - target: {fileID: 2019335291340885984, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
       propertyPath: hitEffect
       value: 
       objectReference: {fileID: 4812192959142158092, guid: 2a714d377ce955242add41ca7ed3c5b3,
         type: 3}
-    - target: {fileID: 2019335291340885984, guid: 6ee0673a22566574aad6ece22db83f2d,
-        type: 3}
-      propertyPath: muzzleFlash
-      value: 
-      objectReference: {fileID: 198234347375597884}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee0673a22566574aad6ece22db83f2d, type: 3}
+--- !u!1 &1117584096435754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1110997367520400756, guid: 6ee0673a22566574aad6ece22db83f2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1110408165937220446}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4035220344747834 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
