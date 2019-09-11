@@ -181,6 +181,8 @@ GameObject:
   - component: {fileID: 11400004}
   - component: {fileID: 2045770615}
   - component: {fileID: 6524298482381267216}
+  - component: {fileID: 9106513744367253453}
+  - component: {fileID: 8671291924404910266}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -329,6 +331,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverCanvas: {fileID: 0}
+--- !u!114 &9106513744367253453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4b25ec509272b4394778d6f0504a37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoAmount: 10
+--- !u!114 &8671291924404910266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17849d62673bf2c4fa428d8b4e537e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 100
 --- !u!114 &4158021150230384471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -581,6 +609,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4812192959142158092, guid: 2a714d377ce955242add41ca7ed3c5b3,
         type: 3}
+    - target: {fileID: 2019335291340885984, guid: 6ee0673a22566574aad6ece22db83f2d,
+        type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 9106513744367253453}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee0673a22566574aad6ece22db83f2d, type: 3}
 --- !u!1 &1117584096435754 stripped
