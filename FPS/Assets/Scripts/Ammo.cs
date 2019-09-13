@@ -16,10 +16,3 @@ public class Ammo : MonoBehaviour
         ammoAmount--;
     }
 }
-
-
-
-
-
-
-                   
