@@ -16,22 +16,35 @@ public class WeaponZoom : MonoBehaviour
     [SerializeField] private float sensitivityZoomedIn = 1f;
     [SerializeField] private float sensitivityZoomedOut = 2f;
     private bool zoomedInToggle;
-
+    private void OnDisable()
+    {
+        ZoomOut();
+    }
     public void Zoom()
     {
-        
-        zoomedInToggle = !zoomedInToggle;
         if (zoomedInToggle)
         {
-            FpsController.mouseLook.XSensitivity = sensitivityZoomedIn;
-            FpsController.mouseLook.YSensitivity = sensitivityZoomedIn;
-            playerCamera.fieldOfView = zoomedInFOV;
+            ZoomOut();
         }
         else
         {
-            FpsController.mouseLook.XSensitivity = sensitivityZoomedOut;
-            FpsController.mouseLook.YSensitivity = sensitivityZoomedOut;
-            playerCamera.fieldOfView = zoomedOutFOV;
+            ZoomIn();
         }
+    }
+
+    private void ZoomOut()
+    {
+        zoomedInToggle = false;
+        FpsController.mouseLook.XSensitivity = sensitivityZoomedOut;
+        FpsController.mouseLook.YSensitivity = sensitivityZoomedOut;
+        playerCamera.fieldOfView = zoomedOutFOV;
+    }
+
+    private void ZoomIn()
+    {
+        zoomedInToggle = true;
+        FpsController.mouseLook.XSensitivity = sensitivityZoomedIn;
+        FpsController.mouseLook.YSensitivity = sensitivityZoomedIn;
+        playerCamera.fieldOfView = zoomedInFOV;
     }
 }

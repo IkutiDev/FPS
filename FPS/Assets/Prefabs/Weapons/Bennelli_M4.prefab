@@ -102,6 +102,7 @@ MonoBehaviour:
   hitEffect: {fileID: 4812192959142158092, guid: 2a714d377ce955242add41ca7ed3c5b3,
     type: 3}
   ammoSlot: {fileID: 0}
+  ammoType: 1
   shootingDelay: 3
   isAutomatic: 0
 --- !u!114 &4158021150230384471
@@ -122,6 +123,7 @@ MonoBehaviour:
   zoomedOutFOV: 60
   sensitivityZoomedIn: 1
   sensitivityZoomedOut: 2
+  canZoom: 1
 --- !u!1 &6181755287155140011
 GameObject:
   m_ObjectHideFlags: 0

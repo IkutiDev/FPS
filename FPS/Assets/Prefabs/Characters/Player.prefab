@@ -343,7 +343,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed4b25ec509272b4394778d6f0504a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 10
+  ammoSlots:
+  - ammoType: 0
+    ammoAmount: 200
+  - ammoType: 1
+    ammoAmount: 20
 --- !u!114 &8671291924404910266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,16 +680,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2019335291340885984, guid: 2301413849d95344892841eaf00f7c8d,
-        type: 3}
-      propertyPath: FPCamera
-      value: 
-      objectReference: {fileID: 2000000}
-    - target: {fileID: 2019335291340885984, guid: 2301413849d95344892841eaf00f7c8d,
-        type: 3}
-      propertyPath: ammoSlot
-      value: 
-      objectReference: {fileID: 9106513744367253453}
     - target: {fileID: 4158021150230384471, guid: 2301413849d95344892841eaf00f7c8d,
         type: 3}
       propertyPath: playerCamera
@@ -696,6 +690,16 @@ PrefabInstance:
       propertyPath: FpsController
       value: 
       objectReference: {fileID: 11400004}
+    - target: {fileID: 2019335291340885984, guid: 2301413849d95344892841eaf00f7c8d,
+        type: 3}
+      propertyPath: FPCamera
+      value: 
+      objectReference: {fileID: 2000000}
+    - target: {fileID: 2019335291340885984, guid: 2301413849d95344892841eaf00f7c8d,
+        type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 9106513744367253453}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2301413849d95344892841eaf00f7c8d, type: 3}
 --- !u!4 &9211275875761314883 stripped
