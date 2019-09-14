@@ -12,6 +12,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float turnSpeed = 5f;
     private bool isProvoked = false;
     private NavMeshAgent navMeshAgent;
+    private EnemyHealth enemyHealth;
 
     private float distanceToTarget=Mathf.Infinity;
     private static readonly int Move = Animator.StringToHash("move");
@@ -19,11 +20,16 @@ public class EnemyAI : MonoBehaviour
 
     void Start()
     {
+        enemyHealth = GetComponent<EnemyHealth>();
         navMeshAgent = GetComponent<NavMeshAgent>();
     }
     void Update()
     {
-        
+        if (enemyHealth.IsDead())
+        {
+            navMeshAgent.enabled = false;
+            enabled = false;
+        }
         distanceToTarget=Vector3.Distance(target.position, transform.position);
         if (isProvoked)
         {

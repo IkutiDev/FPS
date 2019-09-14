@@ -348,6 +348,8 @@ MonoBehaviour:
     ammoAmount: 200
   - ammoType: 1
     ammoAmount: 20
+  - ammoType: 2
+    ammoAmount: 0
 --- !u!114 &8671291924404910266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,7 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7b4ca4261b279f468a8d41d97db1c45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWeapon: 0
+  currentWeapon: 2
 --- !u!1001 &200149556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -419,11 +421,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: M1911
-      objectReference: {fileID: 0}
-    - target: {fileID: 1110997367520400756, guid: 08b4ad4adb3c8c648943ad973ae60a55,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 08b4ad4adb3c8c648943ad973ae60a55,
         type: 3}
@@ -490,16 +487,6 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 9106513744367253453}
-    - target: {fileID: 4158021150230384471, guid: 08b4ad4adb3c8c648943ad973ae60a55,
-        type: 3}
-      propertyPath: playerCamera
-      value: 
-      objectReference: {fileID: 2000000}
-    - target: {fileID: 4158021150230384471, guid: 08b4ad4adb3c8c648943ad973ae60a55,
-        type: 3}
-      propertyPath: FpsController
-      value: 
-      objectReference: {fileID: 11400004}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08b4ad4adb3c8c648943ad973ae60a55, type: 3}
 --- !u!4 &1109750645238445648 stripped
@@ -519,11 +506,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: M4_8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1110997367520400756, guid: 6ee0673a22566574aad6ece22db83f2d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 6ee0673a22566574aad6ece22db83f2d,
         type: 3}
@@ -619,11 +601,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bennelli_M4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1110997367520400756, guid: 2301413849d95344892841eaf00f7c8d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1109750645350251620, guid: 2301413849d95344892841eaf00f7c8d,
         type: 3}
